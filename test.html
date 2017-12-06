@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.flex-container-top {
+    display: -webkit-flex;
+    display: flex;
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.flex-container-middle {
+    display: -webkit-flex;
+    display: flex;
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.flex-container-bottom {
+    display: -webkit-flex;
+    display: flex;
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+}
+
+.card {
+
+}
+</style>
+<script>"eventHandlers.js"</script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!-- <script>
+	var cardsDealt = ["aced", "aceh", "aced"];
+    var cards = ["http://sweetclipart.com/multisite/sweetclipart/files/ace_of_hearts.png", "https://upload.wikimedia.org/wikipedia/commons/b/be/Poker-sm-231-Ad.png"]
+    cardsDealt.forEach((card) => {
+    	var url;
+		switch(card) {
+        	case "aced":
+            	url = cards[0];
+                break;
+            case "aceh":
+				url = cards[1];
+                break;
+        }
+        var img = document.createElement("img");
+		img.setAttribute('src', url);
+        $("#cards").append("hey");
+    });
+	
+
+</script> -->
+</head>
+<body>
+
+<div class="flex-container-top">
+  <div class="flex-item"></div>
+  <div class="flex-item" id="cards"></div>
+  <div class="flex-item">flex item 3</div> 
+</div>
+<div class="flex-container-middle">
+  <div class="flex-item">flex item 1</div>
+  <div class="flex-item">flex item 2</div>
+  <div class="flex-item">flex item 3</div>  
+</div>
+<div class="flex-container-bottom">
+  <div class="flex-item">flex item 1</div>
+  <div class="flex-item">flex item 2</div>
+  <div class="flex-item">flex item 3</div> 
+</div>
+
+</body>
+</html>

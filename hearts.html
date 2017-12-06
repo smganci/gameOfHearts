@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <title>Hearts</title>
+        <link rel="stylesheet" type="text/css" href="hearts.css">
+        <script src="jquery-3.2.1.js"></script>
+        <script src="Card.js"></script>
+        <script src="Hearts.js"></script>
+        <script src="HeartsMatch.js"></script>
+        <script src="DumbAI.js"></script>
+        <script src="ClickPlayer.js"></script>
+
+        <script src="ClickPlayerVS3DumbAI.js"></script>
+
+</head>
+
+<body>
+
+
+
+        <div class="bar">
+                <ul class="scorebar">
+
+                        <li class="scorebox" , id="North">North: 0</li>
+                        <li class="scorebox" , id="East">East: 0 </li>
+                        <li class="scorebox" , id="South">South: 0</li>
+
+                        <li class="scorebox" , id="West">West: 0</li>
+                        <!-- <li class="scorebox" , id="Trick">Trick: 0</li> -->
+                        <li class="scorebox" , id="Pass">Pass: </li>
+                        <li class="scorebox" , id="Leading">Leading: </li>
+                        <li class="scorebox" , id="TrickWinner">Trick Winner: </li>
+
+                </ul>
+
+
+        </div>
+
+
+
+        <div class="center">
+
+
+                <div class="flexbox">
+                        <div class="flexbox" id="north_zone">
+                                <div class="playerName" id="nplayerName"></div>
+                                <span></span>
+                                <div id="north_player"></div>
+
+
+                        </div>
+
+                </div>
+
+                <div class="flexbox">
+                        <div class="flexbox" id="west_zone">
+                                <div class="playerName" id="wplayerName"></div>
+                                <span></span>
+                                <div id="west_player"></div>
+                        </div>
+
+                        <div id="state">
+                                <div class="flexbox">
+                                        <div class="northPlay"></div>
+                                        <div class="eastPlay"></div>
+                                        <div class="southPlay"></div>
+                                        <div class="westPlay"></div>
+
+                                </div>
+
+
+
+
+                        </div>
+                        <div class="flexbox" id="east_zone">
+                                <div class="playerName" id="eplayerName"></div>
+                                <span></span>
+                                <div id="east_player"></div>
+                        </div>
+
+                </div>
+                <div class="flexbox">
+                        <!-- <div class="flex-item">flex item 1</div>
+                <div class="flex-item">flex item 2</div> -->
+
+                        <div class="flexbox" id="south_zone">
+                                <div class="playerName" id="splayerName"></div>
+                                <span></span>
+                                <div id="south_player"> </div>
+                        </div>
+
+
+                </div>
+
+                <div class="flexbox" id="passAndPlay">
+                        <button id="passCards">Pass Cards</button>
+                        <button id="playCard">Play Card</button>
+                </div>
+
+                <div class="flexbox">
+                        <div class="flexbox" id="messageBox">Message: </div>
+                </div>
+
+        </div>
+
+
+</body>
+
+
+
+
+
+</html>

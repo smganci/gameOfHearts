@@ -1,0 +1,276 @@
+
+
+.flexbox , .bar{
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.scorebox{
+    width:100px;
+  
+}
+#TrickWinner{
+    width:120px;
+    padding-right: none;
+}
+
+.scorebar{
+    background-color: white; 
+    /* margin: 20px;     */
+    /* padding: 10px;; */
+    overflow: hidden; 
+    border-radius: 15px; 
+    text-align: center; 
+    list-style-type: none;
+    align-content: center;
+    padding-left: 0px;
+    font-size:12px;
+    width:1100px;
+    
+    /* font-family: Courier New, Courier, monospace; */
+    /* font-weight: bolder; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.selected{
+    background-color:white;
+    color:black;
+
+
+}
+
+.northPlay, .southPlay, .eastPlay, .westPlay{
+    background-color:grey;
+    width:80px;
+    height:40px;
+    /* padding: 20px; */
+    font-size: 10px;
+    border-radius: 15px;
+    margin: 15px;
+    padding:5px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top{
+    background-color:white;
+    color:black;
+
+}
+
+
+
+
+#passCards, #playCard{
+    padding: 0;
+   
+    border-radius: 15px;
+    border:none;
+    background-color:white;
+    color:black;
+    width:100px;
+    /* height:20px; */
+    /* background: none; */
+}
+
+/* #passCards{
+    position: absolute;
+    left:46%;
+} */
+button{
+    height: 30px;
+    width: 60px;
+    padding:0px;
+    margin:5px;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+    border:none;
+    font-size: 10px;
+
+}
+
+
+
+li{
+    float:left;
+    padding: 15px;
+}
+span{
+    padding: none;
+    margin: none;
+}
+
+#east_zone, #west_zone, #north_zone {
+    
+    width: 250px;
+    height: 105px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+
+    color: black;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: float: left;;  */
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+#north_zone{
+    background-color: powderblue;
+}
+
+.playerName{
+    /* color:red; */
+    /* top:0; */
+    /* float:top;
+    position: relative; */
+    vertical-align: top;
+    justify-content: center;
+}
+
+#south_zone{
+    background-color: palevioletred;
+    
+    width: 400px;
+    height: 150px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+
+    color: black;
+    align-items: top;
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: wrap;  */
+}
+
+#south_player, #east_player, #west_player, #north_player{
+    display:-webkit-flex;
+    align-items: top;
+    justify-content: center;
+    flex-wrap: wrap; 
+    position:relative;
+    
+}
+
+#west_zone{
+    background-color: peachpuff;
+}
+
+#east_zone{
+    background-color: lightgreen;
+}
+
+/*.PlayCenter{*/
+
+   
+        /* overflow: scroll; */
+        /* width: 400px;
+        height: 225px;
+        margin: 5px;
+        padding: 10px;
+        display: flex;
+        border-radius: 15px; */
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+      
+        
+    
+        /* color: black;
+        align-items: top;
+        justify-content: center;
+        font-size: 40px; */
+    
+#state{
+    /* margin:30px; */
+    /* margin-left: 40px;
+    margin-right:40px; */
+    /* margin-top:20px;
+    margin-bottom: 20px; */
+    /* overflow: scroll; */
+
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+
+    padding: 5px;
+    display: flex;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+
+    color:white;
+    /* align-items: center;
+     */
+    justify-content: center;
+
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    background-attachment: fixed;
+    background-image: url("./Dark_Rift_2012.jpg");
+    
+}
+
+.enabled{
+    border-color:green;
+    color:green;
+}
+
+.disabled{
+    border-color:red;
+    color:red;
+}
+
+#messageBox{
+    background-color:rgb(255,255,153);
+    width: 500px;
+    height:40px;
+    border-radius: 15px;
+
+}
+
+
+.dumbCarde,.dumbCardw, .dumbCardn{
+    background-color: black;
+    width: 40px;
+    height: 20px;
+}
+
+.top{
+    background-color:white;
+}
+
+/* .North{
+    align-self: flex-end;
+} */
